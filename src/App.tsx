@@ -88,6 +88,19 @@ class App extends React.Component<Props, State> {
 
                 <div className="code-result">
                   <h6>Code</h6>
+                  <samp>
+                    &lt;Number2Words value="{value}"
+                    {
+                      system !== 'international' &&
+                      <span> system="{system}"</span>
+                    }
+
+                    {
+                      system !== 'international' && language !== 'en' &&
+                      <span> language="{language}"</span>
+                    }
+                    /&gt;
+                  </samp>
 
                   <div className="mt-3">
                     <h6>Result</h6>
