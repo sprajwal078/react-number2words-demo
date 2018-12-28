@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-number2words-demo/precache-manifest.045c2a89ced3aba20338911c807bda6a.js"
+  "/react-number2words-demo/precache-manifest.61268c3a22d4fc044fe3604dde003b2b.js"
 );
 
 workbox.clientsClaim();
